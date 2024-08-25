@@ -6,7 +6,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const user_id = "kalesha_09122003";
-const email = "shaikkalesha.vali78@gmail.com";
+const email = "shaikkalesha.vali2021@vitstudent.ac.in";
 const roll_number = "21BAI1706";
 
 // POST endpoint
