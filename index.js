@@ -1,8 +1,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-
+const cors = require("cors");
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 const user_id = "kalesha_09122003";
 const email = "shaikkalesha.vali78@gmail.com";
